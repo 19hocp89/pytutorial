@@ -4,6 +4,12 @@ from hochPi89 import Board
 def test_hello_world():
     assert True
 
+def test_evaluate():
+
+    board = ["XXX......"]
+    assert evaluate(board) == "X"
+
+
 def test_move():
     """ Test the move() method of the Board class.
     
