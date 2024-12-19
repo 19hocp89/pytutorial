@@ -3,6 +3,10 @@ def test_hello_world():
     assert True
 
 def test_move():
+    """ Test the move() method of the Board class.
+    
+    Given a specific board state the function tests for the best move to make given the current state.
+    """
     initial_board_status = 'o.xox..x.'
     best_move_result = 'o.xox.ox.'
     # Initialize board to a certain test state
