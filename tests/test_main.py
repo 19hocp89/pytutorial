@@ -11,7 +11,5 @@ def test_Board_class_integrity():
 def test_empty_Board_initialize():
     import Board
 
-    board = Board("o", "ooo ooo ooo")
-    assert board.rows[0] == [0, 0, 0]
-    assert board.rows[1] == [0, 0, 0]
-    assert board.rows[2] == [0, 0, 0]
+    board = Board("o", "ooooooooo")
+    assert board.positions == ["o", "o", "o", "o", "o", "o", "o", "o", "o"]
