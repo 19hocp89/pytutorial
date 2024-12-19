@@ -5,6 +5,7 @@ def test_hello_world():
     assert True
 
 
+
 def test_Board_class_integrity():
     import Board
 
@@ -17,6 +18,10 @@ def test_empty_Board_initialize():
     board = Board("o", "ooooooooo")
     assert board.positions == ["o", "o", "o", "o", "o", "o", "o", "o", "o"]
 
+def test_show(input):
+    assert isinstance(input, 'something')
+    if input.size == 9:
+        show_board(input)
 
 def test_evaluate():
 
