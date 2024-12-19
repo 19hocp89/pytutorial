@@ -1,0 +1,11 @@
+[project]
+name = "exercise1"
+version = "0.1.0"
+description = "My first Python project!"
+requires-python = ">=3.8"
+authors = [{name = "Philipp Hochstaffl", email = "philipp.hochstaffl@dlr.de"}]
+
+dependencies = [
+    "numpy",
+    "pandas",
+]

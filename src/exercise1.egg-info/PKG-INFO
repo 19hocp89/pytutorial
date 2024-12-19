@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: exercise1
+Version: 0.1.0
+Summary: My first Python project!
+Author-email: Philipp Hochstaffl <philipp.hochstaffl@dlr.de>
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas

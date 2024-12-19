@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/exercise1.egg-info/PKG-INFO
+src/exercise1.egg-info/SOURCES.txt
+src/exercise1.egg-info/dependency_links.txt
+src/exercise1.egg-info/requires.txt
+src/exercise1.egg-info/top_level.txt
+src/hochPi89/__init__.py
+src/hochPi89/example.py
+tests/test_main.py
