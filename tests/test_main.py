@@ -1,4 +1,6 @@
 
+from hochPi89 import Board
+
 def test_hello_world():
     assert True
 
