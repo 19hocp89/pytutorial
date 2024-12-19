@@ -8,12 +8,12 @@ class Board:
         return self
 
     def ingest_string(self, input_string):
-        """Process a string consisting of exactly nine letters which can only be 'x' or 'o'."""
+        """Process a string consisting of exactly nine letters which can only be 'x' or 'o' or '.'"""
         # Check if the input string is exactly 9 characters long
         if len(input_string) != 9:
             raise ValueError("Input must be exactly 9 characters long.")
 
         # Check if the input string only contains 'x' and 'o'
-        if not all(char in "xo" for char in input_string):
-            raise ValueError("Input must only contain the letters 'x' and 'o'.")
+        if not all(char in "xo." for char in input_string):
+            raise ValueError("Input must only contain the letters 'x' and 'o' or '.' ")
         return list(input_string)
