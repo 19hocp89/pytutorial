@@ -4,6 +4,12 @@ from hochPi89 import Board
 def test_hello_world():
     assert True
 
+
+def test_show(input):
+    assert isinstance(input, 'something')
+    if input.size == 9:
+        show_board(input)
+
 def test_evaluate():
 
     board = ["XXX......"]
