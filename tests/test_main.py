@@ -21,5 +21,5 @@ def test_move():
     test_board = Board('x', initial_board_status)
     # Call the move function
     test_board.move()
-    # Check best result
-    assert(initial_board_status == best_move_result)
+    # Assert the Move result
+    assert(Board.show() == best_move_result)
